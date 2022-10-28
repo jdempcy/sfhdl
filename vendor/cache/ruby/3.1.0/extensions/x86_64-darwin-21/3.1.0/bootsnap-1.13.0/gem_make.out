@@ -1,0 +1,16 @@
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221027-53333-7f96mv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20221027-53333-fmpd7d/bootsnap
