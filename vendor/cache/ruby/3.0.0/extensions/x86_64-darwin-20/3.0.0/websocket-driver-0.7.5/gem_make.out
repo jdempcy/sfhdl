@@ -1,0 +1,15 @@
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/railstart-niceadmin/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/jdempcy/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20220127-1491-2ttexp.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/railstart-niceadmin/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/railstart-niceadmin/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/railstart-niceadmin/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20220127-1491-g50xot
