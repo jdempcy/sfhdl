@@ -12,6 +12,12 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", "~> 1.4"
 
+# Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
+gem "jsbundling-rails"
+
+# Bundle and process CSS [https://github.com/rails/cssbundling-rails]
+gem "cssbundling-rails", "~> 1.0"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -39,9 +45,6 @@ gem "redis", "~> 4.0"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
-# Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
-
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -51,6 +54,9 @@ gem "image_processing", "~> 1.2"
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+
+  # Reduces boot times through caching; required in config/boot.rb
+  gem "bootsnap", require: false
 end
 
 group :development do
@@ -83,12 +89,11 @@ end
 
 gem "pg", "~> 1.2"
 gem "dotenv-rails", "~> 2.7"
-gem "sidekiq", "~> 6.3"
+gem "sidekiq", "~> 6.5"
 gem "whenever", "~> 1.0", require: false
 
 gem "awesome_print", "~> 1.9"
 
-gem "cssbundling-rails", "~> 1.0"
 
 gem "rails_admin", "~> 3.0.beta2"
 gem "sassc-rails"
