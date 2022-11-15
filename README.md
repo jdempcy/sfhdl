@@ -38,6 +38,21 @@ http://localhost:3000/sidekiq
 ```
 
 
+### Troubleshooting
+
+If you run into an issue with ExecJS not finding a JS runtime:
+```
+brew install v8
+```
+
+Some issues can be fixed by:
+```
+gem install bundler
+bundle update --bundler
+rm Gemfile.lock
+bundle install
+```
+
 
 ###
 
