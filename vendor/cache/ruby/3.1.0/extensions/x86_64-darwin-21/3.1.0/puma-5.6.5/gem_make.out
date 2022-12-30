@@ -1,5 +1,5 @@
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221027-53333-mcsxes.rb extconf.rb
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-49826-p1zsje.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -13,10 +13,10 @@ checking for SSL_get1_peer_certificate() in openssl/ssl.h... no
 checking for Random.bytes... yes
 creating Makefile
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
 make DESTDIR\= clean
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
 make DESTDIR\=
 compiling http11_parser.c
 compiling mini_ssl.c
@@ -24,6 +24,6 @@ compiling puma_http11.c
 linking shared-object puma/puma_http11.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/puma-5.6.5/ext/puma_http11
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20221027-53333-f4s4av/puma
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20221230-49826-2wrn2t/puma

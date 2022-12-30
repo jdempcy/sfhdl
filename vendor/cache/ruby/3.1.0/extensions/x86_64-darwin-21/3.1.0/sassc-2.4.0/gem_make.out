@@ -1,11 +1,11 @@
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221027-49350-pofuy9.rb extconf.rb
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-49826-shucqp.rb extconf.rb
 creating Makefile
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
 make DESTDIR\= clean
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
 make DESTDIR\=
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
@@ -47,6 +47,16 @@ compiling ./libsass/src/fn_strings.cpp
 compiling ./libsass/src/fn_utils.cpp
 compiling ./libsass/src/inspect.cpp
 compiling ./libsass/src/json.cpp
+./libsass/src/json.cpp:1289:3: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  sprintf(buf, "%.16g", num);
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h:188:1: note: 'sprintf' has been explicitly marked deprecated here
+__deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:215:48: note: expanded from macro '__deprecated_msg'
+        #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+                                                      ^
+1 warning generated.
 compiling ./libsass/src/lexer.cpp
 compiling ./libsass/src/listize.cpp
 compiling ./libsass/src/memory/allocator.cpp
@@ -76,6 +86,6 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20221027-49350-e4xx8o/sassc
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20221230-49826-ijlqm0/sassc

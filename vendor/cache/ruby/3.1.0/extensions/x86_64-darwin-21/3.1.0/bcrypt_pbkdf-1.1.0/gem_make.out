@@ -1,11 +1,11 @@
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221027-49350-54h6l5.rb extconf.rb
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-49826-kaiyxa.rb extconf.rb
 creating Makefile
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
 make DESTDIR\= clean
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
 make DESTDIR\=
 compiling bcrypt_pbkdf.c
 bcrypt_pbkdf.c:81:40: warning: expression does not compute the number of elements in this array; element type is 'uint32_t' (aka 'unsigned int'), not 'uint64_t' (aka 'unsigned long long') [-Wsizeof-array-div]
@@ -35,6 +35,6 @@ compiling hash_sha512.c
 linking shared-object bcrypt_pbkdf_ext.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt_pbkdf-1.1.0/ext/mri
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_pbkdf_ext.bundle ./.gem.20221027-49350-ya799g
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_pbkdf_ext.bundle ./.gem.20221230-49826-97s22p

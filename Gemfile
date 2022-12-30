@@ -95,7 +95,7 @@ gem "whenever", "~> 1.0", require: false
 gem "awesome_print", "~> 1.9"
 
 
-gem "rails_admin", "~> 3.0.beta2"
+gem "rails_admin", "~> 3.1.1"
 gem "sassc-rails"
 
 gem "pghero", "~> 2.8"

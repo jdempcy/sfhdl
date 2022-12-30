@@ -1,11 +1,11 @@
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
-/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221027-53333-kuw1wy.rb extconf.rb
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
+/Users/jdempcy/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/jdempcy/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20221230-49826-oemb6r.rb extconf.rb
 creating Makefile
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
 make DESTDIR\= clean
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
 make DESTDIR\=
 compiling bcrypt_ext.c
 bcrypt_ext.c:41:38: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
@@ -26,6 +26,6 @@ char *crypt_r(const char *key, const char *setting, struct crypt_data *data)
 linking shared-object bcrypt_ext.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/jdempcy/dev-workspace/santa-fe-human-design-library/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
+current directory: /Users/jdempcy/dev-workspace/sfhdl.org/sfhdl/vendor/cache/ruby/3.1.0/gems/bcrypt-3.1.18/ext/mri
 make DESTDIR\= install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20221027-53333-4drlht
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20221230-49826-q8rr98
