@@ -76,5 +76,6 @@ test:
 production:
   <<: *default
   database: sfhdl_production
-  username: deploy
-  password: <%= ENV['RAILSTART_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  username: sfhdl_deploy
+  password: <%= ENV['SFHDL_DATABASE_PASSWORD'] %>
