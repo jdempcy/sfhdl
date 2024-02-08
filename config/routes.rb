@@ -1,18 +1,10 @@
-require 'sidekiq/web'
 Rails.application.routes.draw do
-  resources :posts
-  devise_for :users
-  root 'static_pages#home'
-  get "/up/", to: "up#index", as: :up
-  get "/up/databases", to: "up#databases", as: :up_databases
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  mount RailsAdmin::Engine => '/rails_admin', as: 'rails_admin'
-  mount Sidekiq::Web => '/sidekiq'
-  mount PgHero::Engine, at: 'pghero'
+  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
+  # Can be used by load balancers and uptime monitors to verify that the app is live.
+  get "up" => "rails/health#show", as: :rails_health_check
 
-  draw(:admin)
-
-  %w(404 422 500).each do |code|
-    get code, to: 'errors#show', code: code
-  end
+  # Defines the root path route ("/")
+  # root "posts#index"
 end
